@@ -1,3 +1,17 @@
+
+NGINX is one of the most popular web servers in the world. Not only is NGINX a fast and reliable static web server, it is also used by a ton of developers as a reverse-proxy that sits in front of their APIs. 
+
+In this tutorial we will take a look at the NGINX Official Docker Image and how to use it. We’ll start by running a static web server locally then we’ll build a custom image to house our web server and the files it needs to serve. We’ll finish up by taking a look at creating a reverse-proxy server for a simple REST API and then how to share this image with your team.
+
+Prerequisites
+To complete this tutorial, you will need the following:
+
+Free Docker Account
+Docker running locally
+An IDE or text editor to use for editing files. I would recommend VSCode
+
+
+
 ## 1.0 Running your first container
 Now that you have everything setup, it's time to get our hands dirty. In this section, you are going to run an [Alpine Linux](http://www.alpinelinux.org/) container (a lightweight linux distribution) on your system and get a taste of the `docker run` command.
 
